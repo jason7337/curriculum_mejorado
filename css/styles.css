@@ -1,0 +1,94 @@
+/*Aqui ponemos los estilos principales*/
+html {background: #FCFCFC; color: #333; font-family: 'PT Sans',sans-serif; height: 100%;}
+body {height: 100%; margin: 0 auto; max-width: 978px; padding: 10px}
+a, #skills dl dd {-webkit-transition: all 0.15s ; -moz-transition: all 0.15s ; -ms-transition: all 0.15s ; 
+    -o-transition: all 0.15s ; transition: all 0.15s ;}
+
+
+/*header*/
+header{
+    width: 100%;
+    min-height: 300px;
+    max-height: auto;
+    background-color: rgba(6, 49, 0, 0.9);
+    padding-bottom: 10px;
+    float: left;
+}
+img {
+    float: left;
+}
+.titulo {font-size: 2.7em; color: white; font-weight: bold; padding: 5px 0 5px 10px;}
+.rol {background: rgb(0, 0, 0); color: #FCFCFC; font-weight: normal; margin: 4px 0 13px; 
+    padding: 5px 5px 5px 10px; -webkit-border-radius: 5px; border-radius: 5px; 
+    -webkit-box-shadow:  0px 1px 1px 0px rgba(0, 0, 0, 0.35);  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.15);}
+a.link { color: #ffee00;}
+.intereses {list-style: none; margin-bottom: 15px; overflow: hidden;}
+.intereses li {border-right: 1px solid #ccc; display: inline; float: left; font-size: 0.8em; 
+    padding: 2px 0; text-align: center; width: 19.5%; overflow: hidden}
+.intereses li:last-child {border: none}
+.intereses a {color: white;}
+.intereses a:hover {background-color: #eee; text-decoration: none}
+
+/*main*/
+main{
+    width: 100%;
+    min-height: 300px;
+    max-height: auto;
+    background-color: rgba(160, 255, 136, 0.9);
+    margin-top: 10px;
+    clear: both;
+}
+p.parrMain{margin-bottom: 0px;}
+
+/*footer*/
+footer{
+    width: 100%;
+    min-height: 300px;
+    max-height: auto;
+    background-color: rgba(6, 49, 0, 0.9);
+    margin-top: 0px;
+    clear: both;
+  }
+  footer .footer-wrap{
+    width: 80%;
+    margin: 0 auto;
+    padding-left: 9%;
+    color: white;
+  }
+  .widgetFooter{
+    width: calc(85%/3);
+    height: auto;
+    float: left;
+    padding: 2.5%;
+    text-align: left;
+  }
+  h4.uppercase{
+    text-transform: uppercase;
+  }
+  ul#footerUsefulLink, ul#footerMediaLinks{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    line-height: 40px;
+    text-transform: capitalize;
+  }
+  ul#footerUsefulLink li, ul#footerMediaLinks li{
+    cursor: pointer;
+    transition: border-bottom 3s ease-in; 
+  }
+  ul#footerUsefulLink li:hover .usefulLinksIcons, ul#footerUsefulLink li:hover a{
+     color: #d1c300;
+     /*border-bottom: 1px solid rgb(102, 255, 0)*/;
+  }
+  ul#footerMediaLinks li:hover span.fb, ul#footerMediaLinks li:hover a.fb { color: #3b5998; /*border-bottom: 1px solid #3b5998; */}
+  ul#footerMediaLinks li:hover span.twit, ul#footerMediaLinks li:hover a.twit { color: #1DA1F2; /*border-bottom: 1px solid #1DA1F2; */}
+  ul#footerMediaLinks li:hover span.insta, ul#footerMediaLinks li:hover a.insta { color: #ffc838; /*border-bottom: 1px solid #ffc838; */}
+  ul#footerMediaLinks li:hover span.git, ul#footerMediaLinks li:hover a.git { color: #f1502f; /*border-bottom: 1px solid #f1502f; */}
+  
+  div.footerCopy{
+    clear: both;
+    color: white;
+    text-align: center;
+    padding-bottom: 5px;
+    border-top: 1px solid #ccc;
+  }
